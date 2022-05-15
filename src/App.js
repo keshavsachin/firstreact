@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './Input'
+import Input from './Input';
 
 function App() {
 
@@ -20,8 +22,10 @@ function App() {
      <h1>Hello World</h1>
      <h1>{value}</h1>
      <Addition/>
+     <Input/>
    </div>
   );
 }
+
 
 export default App;
