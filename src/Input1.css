@@ -1,0 +1,64 @@
+   .Input1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+.headercont {
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+}
+.container {
+    height: 90vh;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction:row;
+}
+.navcont {
+    height: 90vh;
+    width: 30%;
+    background-color: aqua;
+}
+.contentandfooter {
+    height: 90vh;
+    width: 80%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    height: 80vh;
+    width:100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.videos {
+    height: 20vh;
+    width: 20%;
+    background-color: brown;
+    font-size: large;
+    font-style: italic ;
+    font-variant-caps: all-petite-caps;
+}
+.videos1 {
+    height: 20vh;
+    width: 20%;
+    background-color:violet;
+    display: flex;
+    flex-direction: row;
+
+}
+.footer {
+    height: 10vh;
+    width: 100%;
+    background-color:green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
